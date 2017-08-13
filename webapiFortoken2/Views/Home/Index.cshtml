@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "TokenIndex";
+    ViewBag.Layout = null;
+}
+
+
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<h2>TokenIndex</h2>
+<button id="token">ok</button>
+<script>
+
+    $("#token").click(function () {
+
+        $.ajax(
+            {
+                type: 'get',
+                url: 'http://localhost:50046/api/Token/GetToken',
+
+                data:{staffId:10000},
+                success: function (data) {
+                    console.log(data);
+                }
+            });
+
+
+    });
+</script>

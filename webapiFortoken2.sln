@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapiFortoken2", "webapiFortoken2\webapiFortoken2.csproj", "{73BCA39D-0D85-4F87-B6F2-94435E9A5987}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiSignalR", "WebApiSignalR\WebApiSignalR.csproj", "{8AC3DF98-205A-4FCC-9FF6-2E6CAC4D7C8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebForPc", "WebForPc\WebForPc.csproj", "{A36EE853-1D28-463C-A04B-C65FD892A2ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73BCA39D-0D85-4F87-B6F2-94435E9A5987}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73BCA39D-0D85-4F87-B6F2-94435E9A5987}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73BCA39D-0D85-4F87-B6F2-94435E9A5987}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73BCA39D-0D85-4F87-B6F2-94435E9A5987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AC3DF98-205A-4FCC-9FF6-2E6CAC4D7C8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AC3DF98-205A-4FCC-9FF6-2E6CAC4D7C8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AC3DF98-205A-4FCC-9FF6-2E6CAC4D7C8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AC3DF98-205A-4FCC-9FF6-2E6CAC4D7C8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A36EE853-1D28-463C-A04B-C65FD892A2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36EE853-1D28-463C-A04B-C65FD892A2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36EE853-1D28-463C-A04B-C65FD892A2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36EE853-1D28-463C-A04B-C65FD892A2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
